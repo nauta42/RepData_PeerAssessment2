@@ -1,0 +1,31 @@
+---
+title: "Consequences of Severe Weather Events in USA"
+author: "nauta42"
+output: 
+  html_document:
+    keep_md: true
+---
+
+## Synopsis
+**TODO Section which describes and summarizes your analysis in at most 10 complete sentences.**
+In this report we aim to ...
+
+## Data Processing
+**TODO Section which describes (in words and code) how the data were loaded into R and processed for analysis. In particular, your analysis must start from the raw CSV file containing the data. You cannot do any preprocessing outside the document. If preprocessing is time-consuming you may consider using the cache = TRUE option for certain code chunks.**
+
+From the [Coursera Reproducible Research Peer Assessment 2 course web site](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2) we obtained NOAAA storm database. This database tracks characteristics of major storms and weather events in the United States, including when and where they occur, as well as estimates of any fatalities, injuries, and property damage. The events in the database start in the year 1950 and end in November 2011. In the earlier years of the database there are generally fewer events recorded, most likely due to a lack of good records. More recent years should be considered more complete.
+
+### Reading in the storm database
+**TODO We first read in the 1999 data from the raw text file included in the zip archive. The data is a delimited file were fields are delimited with the | character adn missing values are coded as blank fields. We skip some commented lines in the beginning of the file and initially we do not read the header data.**
+```{r, echo=TRUE,cache=TRUE}
+# results in cache memory, not recalculated each time
+```
+
+
+## Results
+
+**TODO Section in which results are presented.**
+
+```{r, echo=FALSE}
+```
+
