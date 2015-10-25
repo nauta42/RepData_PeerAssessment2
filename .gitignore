@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.RDataTmp
+*.Rproj
+chunks*
+*.pdf
+*.bz2
+*.csv
